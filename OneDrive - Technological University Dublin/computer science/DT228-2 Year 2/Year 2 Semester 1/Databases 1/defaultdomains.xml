@@ -1,6 +1,51 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Identifier" id="57E6C14C-AAFC-FC0A-C357-2A7548439132">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 14:51:55 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>7</dataTypePrecision>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Description" id="5EC02419-4351-372E-3FF3-A6B5D6EB6AE5">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 14:52:58 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Title" id="6B154368-0E91-21BE-1EA0-A604DE995B5E">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 14:53:43 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Age" id="B2B272B2-A492-F3F0-EF56-34F2A506DC7B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 14:54:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Name" id="B7ECBE33-407D-42CE-4152-688DCDFC2941">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 14:52:39 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>shaha</createdBy>
 <createdTime>2020-11-06 14:17:40 UTC</createdTime>
@@ -8,6 +53,16 @@
 <avTSortOrder>0</avTSortOrder>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Amount" id="E7B769F3-9E40-7296-A8C3-395A63A4EC36">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 14:54:35 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
 </Domain>
 </domains>
 </DomainFile>
