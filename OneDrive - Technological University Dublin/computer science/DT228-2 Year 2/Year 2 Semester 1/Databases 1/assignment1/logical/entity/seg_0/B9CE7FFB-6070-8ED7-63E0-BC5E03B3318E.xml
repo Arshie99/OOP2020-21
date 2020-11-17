@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9CE7FFB-6070-8ED7-63E0-BC5E03B3318E" name="Guest">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:04 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GuestID" id="DBAA5B61-FB7F-5628-AD98-07640DD9ED88">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GuestName" id="90946E50-6CF7-22E8-A5D4-BBC3ABADD2BD">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:23 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B7ECBE33-407D-42CE-4152-688DCDFC2941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GuestAddress" id="6E6CA6BD-FA55-1F9F-93D5-7C06DA0B7AD9">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:23 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GuestPhone" id="64073248-3E4A-801A-A4F5-CB101358DD97">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:23 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46F1BD63-EB2E-FE9B-B267-F1D8A64C7D34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GuestEmail" id="80E9B315-93B9-7F23-7208-92FE503C01E6">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:23 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C23874D7-AA29-E488-1305-CBD034BDB8F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="690199EF-6B04-C3AF-C7AC-9A200A15F754" name="Guest PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:43:20 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBAA5B61-FB7F-5628-AD98-07640DD9ED88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

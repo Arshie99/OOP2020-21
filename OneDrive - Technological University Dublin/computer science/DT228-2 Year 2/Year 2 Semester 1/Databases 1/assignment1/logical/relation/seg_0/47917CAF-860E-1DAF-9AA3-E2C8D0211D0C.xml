@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="oneRestaurantcanhavemanystaff" directorySegmentName="seg_0" id="47917CAF-860E-1DAF-9AA3-E2C8D0211D0C">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:27:33 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<sourcePk>DB92A939-65FF-FF3F-27AB-D8DCE570F83F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88BFC007-3C43-0732-07E0-5765A4CEA8B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C16F5A31-47B3-6851-0890-1FB66CF29B42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

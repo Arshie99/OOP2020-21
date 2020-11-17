@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Staff" directorySegmentName="seg_0" id="20F4CC43-AA59-BD2E-CA2E-EC43B0D59179">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Table_TableID" id="1AD78E5A-3698-A998-CA95-1F412AD0B4A3">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staffPosition" id="260AAC5F-7079-A4F6-4D57-7FFDAA396551">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staffDOB" id="8ECFC144-7760-E27F-32C3-2E83CAA7DEFF">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staffStartDate" id="92917626-08AD-9F1D-BA73-5B024D4F6D3B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staffAddress" id="A82556B1-03FA-07CC-9C48-32F153A59AEF">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staffEmail" id="B144C0B4-6C94-21A7-254B-9D2393BDF5A5">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="staffName" id="BB11479E-F63B-A557-A4D1-03FC80D726DA">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="StaffID" id="F7624C8C-429F-35B1-BBB1-816C5355704A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Staff_Table_FK" id="7D60D517-8A7D-4365-1EA3-B3DEA9BA4DB6">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Staff_PK" id="B44A93FB-F457-A407-E72C-0A2596956D6E">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="restaurant" directorySegmentName="seg_0" id="F7190E4E-BE34-A331-3D9C-BA4A59D7DEF6">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Customer_CustomerID" id="016E31C4-1CB4-50E8-4E4F-AD2177D3311B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Booking_BookingID" id="46F1EDC4-4B24-6E27-A402-987BDDA91168">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Table_TableID" id="5D9C8DB2-9DB8-20E4-06BC-1EAF8AEAACB8">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address" id="6829BC86-D9A3-A328-A3CA-F2912BC09C2F">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_StaffID" id="96B01B12-28BD-5DF0-F7F3-378B200458C5">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RestaurantID" id="EF752A78-F045-B0A5-F453-C4678137DF84">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PhoneNO" id="FB98CF2A-2DAA-1FCA-1658-3BE11D41BE04">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="restaurant_Booking_FK" id="2266DECB-60DC-EA5E-9D16-94CE5FA4FA02">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="restaurant_Staff_FK" id="8F438600-5EA8-9941-8850-93CBD07188E3">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="restaurant_Table_FK" id="9D3C2598-CB05-DE26-4A5F-BC69CE82FDB9">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="restaurant_Customer_FK" id="CE50F156-F0C7-B215-2B5C-31D139416E01">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="restaurant_PK" id="221C4DA8-CF2D-5EFA-20D4-A5EFB83225E3">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

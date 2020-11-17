@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="restauranthavemanybookings" directorySegmentName="seg_0" id="DABF3575-E0DB-8713-6B7F-562B827FF23A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:52:19 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<sourcePk>0A7800E5-F6BA-B839-A256-43FC659AFCA4</sourcePk>
+<targetPk>4616B83E-7D57-67B4-23DD-163597EDBB23</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C16F5A31-47B3-6851-0890-1FB66CF29B42</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>96551CC7-42AE-31CB-3583-59CBD6BDAB2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

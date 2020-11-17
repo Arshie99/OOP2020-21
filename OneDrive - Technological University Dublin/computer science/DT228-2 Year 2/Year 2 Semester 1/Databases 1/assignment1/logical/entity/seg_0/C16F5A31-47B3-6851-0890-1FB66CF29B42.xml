@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C16F5A31-47B3-6851-0890-1FB66CF29B42" name="restaurant">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 16:49:31 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RestaurantID" id="E46465AD-603C-6429-94D9-93807F31973B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 16:51:16 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="0FE87BBB-C12D-95BB-6F2B-ADF93AC68467">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 16:51:42 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNO" id="D92954E1-B2B3-F78C-F722-80D9AC78BEC0">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 16:52:40 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46F1BD63-EB2E-FE9B-B267-F1D8A64C7D34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StaffID" id="72E4F2DD-FA1E-5678-982B-1C3F74FF937F">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:27:33 UTC</createdTime>
+<generatorID>47917CAF-860E-1DAF-9AA3-E2C8D0211D0C</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<referedAttribute>A46FF8B3-D652-6E8E-5B36-9F8BD14FC322</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TableID" id="5F83188D-2E58-B49C-6F01-5495969302A6">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:28:07 UTC</createdTime>
+<generatorID>ADF357D7-CC39-4734-DB78-8D5FC4854207</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<referedAttribute>76EDCF7C-A5CE-8E96-8407-EC18DE5501B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BookingID" id="C737A8F6-CD09-8F46-3FDF-43F8211457D4">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:52:25 UTC</createdTime>
+<generatorID>DABF3575-E0DB-8713-6B7F-562B827FF23A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>938F736D-EF31-91A2-100B-E525C95E9102</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="28BB539C-2DE1-A7D8-6BC0-D2D9F0350A90">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:18:11 UTC</createdTime>
+<generatorID>9ECDB0DA-7FFF-DD23-555B-EC5464AF3BFA</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>969C943E-17ED-92A7-8E59-B600EBD34BC7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A7800E5-F6BA-B839-A256-43FC659AFCA4" name="restaurant PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 16:51:33 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E46465AD-603C-6429-94D9-93807F31973B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

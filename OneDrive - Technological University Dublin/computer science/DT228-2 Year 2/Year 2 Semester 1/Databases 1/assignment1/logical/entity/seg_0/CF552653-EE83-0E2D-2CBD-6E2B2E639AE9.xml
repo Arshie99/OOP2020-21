@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF552653-EE83-0E2D-2CBD-6E2B2E639AE9" name="Table">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:10:22 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TableID" id="76EDCF7C-A5CE-8E96-8407-EC18DE5501B7">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:10:35 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TableType" id="88E9EB0A-2123-532F-37BC-12723E2E2756">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:11:24 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TableLocation" id="802E6F04-1972-4458-3592-A0CA2253E215">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:11:44 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TableStatus" id="59158722-A920-6D34-FD21-9925F25E9BFD">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:15:24 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6B154368-0E91-21BE-1EA0-A604DE995B5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PartyID" id="EE2E4C86-F21E-6ABD-8F02-B1E11BDD4B38">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:47:01 UTC</createdTime>
+<generatorID>326F2DE7-8290-DA3F-52B4-A8A4A6D1AB57</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<referedAttribute>71183ED1-971C-F272-2431-1C5E312D2619</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BookingID" id="A84B17F5-4E8B-AE43-F5A1-FD90384E3014">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:59:24 UTC</createdTime>
+<generatorID>231D84DD-35AC-A2D9-885D-B81572FF6C44</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<referedAttribute>938F736D-EF31-91A2-100B-E525C95E9102</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4091F59-991A-653E-9931-EA709F4C64DB" name="Table PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:11:20 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76EDCF7C-A5CE-8E96-8407-EC18DE5501B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

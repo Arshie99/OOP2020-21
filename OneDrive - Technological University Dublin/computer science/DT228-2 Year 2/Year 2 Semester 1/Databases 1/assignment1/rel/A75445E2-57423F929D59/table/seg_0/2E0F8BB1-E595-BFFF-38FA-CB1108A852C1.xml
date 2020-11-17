@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E0F8BB1-E595-BFFF-38FA-CB1108A852C1" name="Customer">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>7734428A-CB08-9A51-188A-9DEDA33D0EA0</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerID" id="76CD2A2C-66E1-D95B-530C-26F821BED2DD">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>969C943E-17ED-92A7-8E59-B600EBD34BC7</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerName" id="999AD117-FEAE-084E-C0E0-E28F6BEB42F4">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>BAEEE572-6EF6-FE80-71F5-169C53289228</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B7ECBE33-407D-42CE-4152-688DCDFC2941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerAddress" id="A10B2D63-3AD1-B113-C343-C02B1885EB74">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>F7A14FA0-B086-C8EF-E1CE-41417E6C234E</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerEmail" id="DB455C27-38EC-1AD9-45EE-20D70D8F822A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>A8DFB61B-8B77-A946-1C7A-B7261700072C</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerAge" id="EC3BAD32-5EF3-135F-DEAF-E3117A89CC49">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>5406E5F9-2312-95FF-4D9D-3321A4D08C78</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B2B272B2-A492-F3F0-EF56-34F2A506DC7B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Booking_BookingID" id="5263FDB4-4C36-FDA5-02EE-1E0A5BFE9147">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>95C5C4BF-FBF9-20BD-2813-62A4B0D53128</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AC7AD15-F13F-D010-5C51-B9379353E5EF" referredColumn="97B097CD-DCA9-59DC-A84E-376B353C5EDE"/>
+</associations>
+</Column>
+<Column name="Party_PartyID" id="5320E091-EC83-9807-597C-BEF5E3561B67">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>402590BC-B109-078F-C3C3-A9AE344DAC85</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2C98E4F-AF9D-45D4-029F-8DCB3B1BBF2E" referredColumn="C45C2AE1-EA13-220D-AC8C-6DD55092A47B"/>
+</associations>
+</Column>
+<Column name="Guest_GuestID" id="758608C2-F881-429A-66A6-A1CFA45788F2">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>4DE29B8E-9D9E-FD85-5950-5B3E6E64F708</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31FE7704-FE8A-67FC-BB38-11760371CEFD" referredColumn="98B09255-09EF-1A1C-72DC-B592B73F1F34"/>
+</associations>
+</Column>
+<Column name="Table_TableID" id="D5FA57D6-F688-AEBB-A378-A6DAE1726FA6">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>FB164E40-4C7F-27F0-CED9-ABEF71139C5E</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D44D72F7-CF88-9AC7-AA15-6BBAD283EDBB" referredColumn="E0633CD5-5C84-7330-68EC-619BA386540D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86DEBC98-5FA0-1776-458F-E50967CE273D" name="Customer_PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>BAAFE5BF-CCA3-DE8A-F129-126C5B6FA64A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76CD2A2C-66E1-D95B-530C-26F821BED2DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BB7B241-F6F7-09A8-D42C-B2D6952B4B22" name="Customer_Party_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>93E313F3-BEED-0D92-EBEF-AD707671E5EC</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5320E091-EC83-9807-597C-BEF5E3561B67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FA3407A-2556-0E1B-6454-4A10AF51BE86" name="Customer_Table_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>2F80E2D3-2C28-7238-7A11-1EB7C0930E05</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5FA57D6-F688-AEBB-A378-A6DAE1726FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFF55778-3CA7-8193-F670-69A33178570E" name="Customer_Booking_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>A68C66D6-54A9-AEFC-B87A-BEA625DF912B</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5263FDB4-4C36-FDA5-02EE-1E0A5BFE9147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1EC7E10-FA2C-59D1-AE7D-25F01BE8EA21" name="Customer_Guest_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>E5789E66-38DF-E2C9-F574-0A8169279D87</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="758608C2-F881-429A-66A6-A1CFA45788F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

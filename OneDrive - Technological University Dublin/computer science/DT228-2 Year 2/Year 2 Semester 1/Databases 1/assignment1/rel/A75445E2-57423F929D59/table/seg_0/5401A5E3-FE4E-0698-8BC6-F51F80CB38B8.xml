@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5401A5E3-FE4E-0698-8BC6-F51F80CB38B8" name="Party">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>2689848D-533F-8820-CCB8-8EF01DC6569A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PartyID" id="C45C2AE1-EA13-220D-AC8C-6DD55092A47B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>71183ED1-971C-F272-2431-1C5E312D2619</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Guest_GuestID" id="6B948BC6-3DA0-49E2-5604-755419ABA91A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>B6176FA0-0EBF-6466-A621-CBD8E4C77A77</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8C6A5B9-6BA5-24C3-7084-2DB248CBB44E" referredColumn="98B09255-09EF-1A1C-72DC-B592B73F1F34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24730914-BD1A-2044-86B5-CCBDD359B20B" name="Party_PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>1E6BF007-1800-E5B1-F382-F916CD1E9EB3</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C45C2AE1-EA13-220D-AC8C-6DD55092A47B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3344CF03-6431-59DB-A023-5443213E1C7C" name="Party_Guest_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>71753BFE-2399-C35B-33E3-1FC55D71356A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B948BC6-3DA0-49E2-5604-755419ABA91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

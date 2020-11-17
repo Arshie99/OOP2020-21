@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7190E4E-BE34-A331-3D9C-BA4A59D7DEF6" name="restaurant">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>C16F5A31-47B3-6851-0890-1FB66CF29B42</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RestaurantID" id="EF752A78-F045-B0A5-F453-C4678137DF84">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>E46465AD-603C-6429-94D9-93807F31973B</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="6829BC86-D9A3-A328-A3CA-F2912BC09C2F">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>0FE87BBB-C12D-95BB-6F2B-ADF93AC68467</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNO" id="FB98CF2A-2DAA-1FCA-1658-3BE11D41BE04">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>D92954E1-B2B3-F78C-F722-80D9AC78BEC0</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46F1BD63-EB2E-FE9B-B267-F1D8A64C7D34</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_StaffID" id="96B01B12-28BD-5DF0-F7F3-378B200458C5">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>72E4F2DD-FA1E-5678-982B-1C3F74FF937F</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC7C856C-8B40-E59A-7108-E746260F40E8" referredColumn="F7624C8C-429F-35B1-BBB1-816C5355704A"/>
+</associations>
+</Column>
+<Column name="Table_TableID" id="5D9C8DB2-9DB8-20E4-06BC-1EAF8AEAACB8">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>5F83188D-2E58-B49C-6F01-5495969302A6</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E872253E-6A0F-ACD8-DE29-BE21A4B96083" referredColumn="E0633CD5-5C84-7330-68EC-619BA386540D"/>
+</associations>
+</Column>
+<Column name="Booking_BookingID" id="46F1EDC4-4B24-6E27-A402-987BDDA91168">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>C737A8F6-CD09-8F46-3FDF-43F8211457D4</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AD38D0A-F857-73AC-B3EF-C7F806FA49E3" referredColumn="97B097CD-DCA9-59DC-A84E-376B353C5EDE"/>
+</associations>
+</Column>
+<Column name="Customer_CustomerID" id="016E31C4-1CB4-50E8-4E4F-AD2177D3311B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>28BB539C-2DE1-A7D8-6BC0-D2D9F0350A90</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9EF6F26-8727-FE2C-7F44-35F429100655" referredColumn="76CD2A2C-66E1-D95B-530C-26F821BED2DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="221C4DA8-CF2D-5EFA-20D4-A5EFB83225E3" name="restaurant_PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>0A7800E5-F6BA-B839-A256-43FC659AFCA4</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF752A78-F045-B0A5-F453-C4678137DF84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F438600-5EA8-9941-8850-93CBD07188E3" name="restaurant_Staff_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>47917CAF-860E-1DAF-9AA3-E2C8D0211D0C</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96B01B12-28BD-5DF0-F7F3-378B200458C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D3C2598-CB05-DE26-4A5F-BC69CE82FDB9" name="restaurant_Table_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>ADF357D7-CC39-4734-DB78-8D5FC4854207</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D9C8DB2-9DB8-20E4-06BC-1EAF8AEAACB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE50F156-F0C7-B215-2B5C-31D139416E01" name="restaurant_Customer_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>9ECDB0DA-7FFF-DD23-555B-EC5464AF3BFA</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016E31C4-1CB4-50E8-4E4F-AD2177D3311B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2266DECB-60DC-EA5E-9D16-94CE5FA4FA02" name="restaurant_Booking_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>DABF3575-E0DB-8713-6B7F-562B827FF23A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46F1EDC4-4B24-6E27-A402-987BDDA91168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

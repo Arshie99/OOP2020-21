@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Table" directorySegmentName="seg_0" id="5AB0D915-BDC1-6577-0BEF-905453EA8093">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TableLocation" id="4A65522A-F3FA-B897-F849-1FD36812F45F">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Booking_BookingID" id="66C69A51-8D4D-D1E9-F6D3-46B7F33C24F7">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TableStatus" id="8409A1CA-FEAE-291A-8E58-1DD6F079ECEF">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TableType" id="ABDAE7D7-19DF-6F14-6619-219F759C635B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Party_PartyID" id="B79C918B-AD5D-217A-B5DC-36D31B042DF9">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TableID" id="E0633CD5-5C84-7330-68EC-619BA386540D">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Table__IDX" id="D195B362-6760-DEE8-FA82-38CF8169651A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Table_Booking_FK" id="1EC69AD4-8DC3-D30D-95BC-10E048C935B2">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Table_Party_FK" id="5A84DC14-5385-3260-401E-3EDB010451BE">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Table_PK" id="A603ACFC-ABA8-54B7-A52A-7524AB345DB7">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Customer" directorySegmentName="seg_0" id="2E0F8BB1-E595-BFFF-38FA-CB1108A852C1">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Booking_BookingID" id="5263FDB4-4C36-FDA5-02EE-1E0A5BFE9147">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Party_PartyID" id="5320E091-EC83-9807-597C-BEF5E3561B67">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Guest_GuestID" id="758608C2-F881-429A-66A6-A1CFA45788F2">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CustomerID" id="76CD2A2C-66E1-D95B-530C-26F821BED2DD">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CustomerName" id="999AD117-FEAE-084E-C0E0-E28F6BEB42F4">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CustomerAddress" id="A10B2D63-3AD1-B113-C343-C02B1885EB74">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Table_TableID" id="D5FA57D6-F688-AEBB-A378-A6DAE1726FA6">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CustomerEmail" id="DB455C27-38EC-1AD9-45EE-20D70D8F822A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CustomerAge" id="EC3BAD32-5EF3-135F-DEAF-E3117A89CC49">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Customer_Table_FK" id="6FA3407A-2556-0E1B-6454-4A10AF51BE86">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Customer_Party_FK" id="8BB7B241-F6F7-09A8-D42C-B2D6952B4B22">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Customer_Booking_FK" id="AFF55778-3CA7-8193-F670-69A33178570E">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Customer_Guest_FK" id="F1EC7E10-FA2C-59D1-AE7D-25F01BE8EA21">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Customer_PK" id="86DEBC98-5FA0-1776-458F-E50967CE273D">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:44:10 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20F4CC43-AA59-BD2E-CA2E-EC43B0D59179" name="Staff">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>88BFC007-3C43-0732-07E0-5765A4CEA8B5</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StaffID" id="F7624C8C-429F-35B1-BBB1-816C5355704A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>A46FF8B3-D652-6E8E-5B36-9F8BD14FC322</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffName" id="BB11479E-F63B-A557-A4D1-03FC80D726DA">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>B293E4C9-A1DC-A848-6617-6D171045C994</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B7ECBE33-407D-42CE-4152-688DCDFC2941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffAddress" id="A82556B1-03FA-07CC-9C48-32F153A59AEF">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>F1E477DE-CDC1-E9DE-0D4A-CE866357DB08</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffEmail" id="B144C0B4-6C94-21A7-254B-9D2393BDF5A5">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>948896E1-1D64-4D2D-3881-5D82E206BF4B</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5137EF23-B2C5-EF9A-E755-E25FBA4C5587</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffDOB" id="8ECFC144-7760-E27F-32C3-2E83CAA7DEFF">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>7B5617CB-2611-CF89-8E2D-5A96AA59F3A5</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>021ED8B2-284A-3F60-2D50-B0FBC0E267AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffStartDate" id="92917626-08AD-9F1D-BA73-5B024D4F6D3B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>F01662CD-D282-6CB3-23B6-04DFCAA2A92A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>18CCE744-D601-D98A-D576-D56C75E61ED0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffPosition" id="260AAC5F-7079-A4F6-4D57-7FFDAA396551">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>84C91B2F-C3D0-9FE1-F730-EA5C0DDEDC3A</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Table_TableID" id="1AD78E5A-3698-A998-CA95-1F412AD0B4A3">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>2C7249FF-1268-3817-F698-C92DC59DF5EB</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A969742-CECD-84A2-2E84-6565904B405D" referredColumn="E0633CD5-5C84-7330-68EC-619BA386540D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B44A93FB-F457-A407-E72C-0A2596956D6E" name="Staff_PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>DB92A939-65FF-FF3F-27AB-D8DCE570F83F</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7624C8C-429F-35B1-BBB1-816C5355704A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D60D517-8A7D-4365-1EA3-B3DEA9BA4DB6" name="Staff_Table_FK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:41:08 UTC</createdTime>
+<generatorID>E7B613A4-8760-0665-0B73-AF5DF92635AD</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD78E5A-3698-A998-CA95-1F412AD0B4A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

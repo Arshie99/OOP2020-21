@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="customercanhavemanytables" directorySegmentName="seg_0" id="2F80E2D3-2C28-7238-7A11-1EB7C0930E05">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:30:04 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<sourcePk>BAAFE5BF-CCA3-DE8A-F129-126C5B6FA64A</sourcePk>
+<targetPk>B4091F59-991A-653E-9931-EA709F4C64DB</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7734428A-CB08-9A51-188A-9DEDA33D0EA0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CF552653-EE83-0E2D-2CBD-6E2B2E639AE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

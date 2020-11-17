@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88BFC007-3C43-0732-07E0-5765A4CEA8B5" name="Staff">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:01:05 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StaffID" id="A46FF8B3-D652-6E8E-5B36-9F8BD14FC322">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:01:38 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffName" id="B293E4C9-A1DC-A848-6617-6D171045C994">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:02:01 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B7ECBE33-407D-42CE-4152-688DCDFC2941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffAddress" id="F1E477DE-CDC1-E9DE-0D4A-CE866357DB08">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:03:11 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffEmail" id="948896E1-1D64-4D2D-3881-5D82E206BF4B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:04:22 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5137EF23-B2C5-EF9A-E755-E25FBA4C5587</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffDOB" id="7B5617CB-2611-CF89-8E2D-5A96AA59F3A5">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:05:42 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>021ED8B2-284A-3F60-2D50-B0FBC0E267AC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffStartDate" id="F01662CD-D282-6CB3-23B6-04DFCAA2A92A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:07:48 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>18CCE744-D601-D98A-D576-D56C75E61ED0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffPosition" id="84C91B2F-C3D0-9FE1-F730-EA5C0DDEDC3A">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:09:33 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EC02419-4351-372E-3FF3-A6B5D6EB6AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TableID" id="2C7249FF-1268-3817-F698-C92DC59DF5EB">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 18:23:16 UTC</createdTime>
+<generatorID>E7B613A4-8760-0665-0B73-AF5DF92635AD</generatorID>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>76EDCF7C-A5CE-8E96-8407-EC18DE5501B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>57E6C14C-AAFC-FC0A-C357-2A7548439132</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB92A939-65FF-FF3F-27AB-D8DCE570F83F" name="Staff PK">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:01:58 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A46FF8B3-D652-6E8E-5B36-9F8BD14FC322</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

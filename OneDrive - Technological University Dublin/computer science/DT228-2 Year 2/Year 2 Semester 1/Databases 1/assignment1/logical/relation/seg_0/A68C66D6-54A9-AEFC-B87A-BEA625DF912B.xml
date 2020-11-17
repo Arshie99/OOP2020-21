@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Customerhasmanybooking" directorySegmentName="seg_0" id="A68C66D6-54A9-AEFC-B87A-BEA625DF912B">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:25:44 UTC</createdTime>
+<ownerDesignName>assignment1</ownerDesignName>
+<engineerTo>
+<item key="A75445E2-4F37-05FE-82F8-57423F929D59" value="true"/>
+</engineerTo>
+<sourcePk>BAAFE5BF-CCA3-DE8A-F129-126C5B6FA64A</sourcePk>
+<targetPk>4616B83E-7D57-67B4-23DD-163597EDBB23</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7734428A-CB08-9A51-188A-9DEDA33D0EA0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>96551CC7-42AE-31CB-3583-59CBD6BDAB2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
