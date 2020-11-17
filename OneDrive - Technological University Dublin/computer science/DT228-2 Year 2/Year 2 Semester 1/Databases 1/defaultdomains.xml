@@ -1,6 +1,44 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
 <domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Edition" id="021ED8B2-284A-3F60-2D50-B0FBC0E267AC">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 15:57:47 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date" id="18CCE744-D601-D98A-D576-D56C75E61ED0">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 15:50:16 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phone" id="46F1BD63-EB2E-FE9B-B267-F1D8A64C7D34">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 15:46:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="staffemail" id="5137EF23-B2C5-EF9A-E755-E25FBA4C5587">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:16:20 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="@burgershack.com"/>
+</checkConstraint>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Identifier" id="57E6C14C-AAFC-FC0A-C357-2A7548439132">
 <createdBy>shaha</createdBy>
 <createdTime>2020-11-06 14:51:55 UTC</createdTime>
@@ -28,6 +66,15 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Year" id="7D4A18C2-415C-1825-5D59-EB165D9A0E25">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 15:49:28 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>5</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Age" id="B2B272B2-A492-F3F0-EF56-34F2A506DC7B">
 <createdBy>shaha</createdBy>
 <createdTime>2020-11-06 14:54:12 UTC</createdTime>
@@ -46,6 +93,26 @@
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="email" id="C23874D7-AA29-E488-1305-CBD034BDB8F7">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-17 17:20:25 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="@.com"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="reserve" id="D7D25FA5-20D5-A2C9-08B2-B7614A17C699">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 15:48:44 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT006</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>shaha</createdBy>
 <createdTime>2020-11-06 14:17:40 UTC</createdTime>
@@ -63,6 +130,15 @@
 <dataTypeScale>2</dataTypeScale>
 <fileName>defaultdomains</fileName>
 <logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Password" id="F5D7610F-C628-7B9B-CE84-A6472117423D">
+<createdBy>shaha</createdBy>
+<createdTime>2020-11-06 15:45:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>32</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
 </Domain>
 </domains>
 </DomainFile>
