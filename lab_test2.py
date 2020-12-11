@@ -11,9 +11,57 @@ class Document:
     """
 
     def __init__(self, file_name):
-        self.characters = []
-        self.cursor = 0
-        self.filename = file_name
+        self._characters = []
+        self._cursor = 0
+        self._filename = file_name
+
+    @property
+    def charaters(self):
+        """
+        a getter method to get the characters array
+
+        returns: characters list
+        """
+        return self._charaters
+
+    @characters.setter
+    def set_characters(self,words):
+        """
+        a setter method for characters
+
+        attributes: strings to insert
+
+        returns: no return
+        """
+        self._charaters = words
+
+    @property
+    def get_cursor(self):
+        """
+        a getter method to get the cursor position
+
+        returns: cursor position
+        """
+        return self._cursor
+
+    @cursor.setter
+    def set_cursor(self,words):
+        """
+        a setter method for characters
+
+        attributes: strings to insert
+
+        returns: no return
+        """
+        self._charaters = words
+
+    def get_filename(self):
+        """
+        a getter method to get the file name
+
+        returns: name of file
+        """
+        return self._filename
 
     def insert(self, character):
         """
