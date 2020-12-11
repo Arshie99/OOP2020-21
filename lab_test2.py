@@ -1,7 +1,7 @@
 # Object Oriented Programming
 # TU856 & TU858
 # Semester 1, 2020-21
-# B. Schoen-Phelan
+# Arshad shah
 # 11-12-2020
 
 class Document:
@@ -37,7 +37,11 @@ class Document:
         Arguments: none
         Returns: none
         """
-        del self.characters[self.cursor]
+        try:
+            del self.characters[self.cursor]
+        except:
+            print("invalid number steps")
+
 
     def save(self):
         """
@@ -79,7 +83,6 @@ class Document:
         """
         self.cursor -= steps
 
-
 # initialising an object and using the class
 doc = Document("lab_t2.txt")
 characters = 'fake mews'
@@ -87,7 +90,7 @@ characters = 'fake mews'
 for letter in characters:
     doc.insert(letter)
 
-doc.backward(4)
+doc.backward(44)
 doc.delete()
 doc.insert('n')
 doc.save()
